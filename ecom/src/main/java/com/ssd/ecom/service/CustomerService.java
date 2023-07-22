@@ -1,6 +1,7 @@
 package com.ssd.ecom.service;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -22,5 +23,9 @@ public class CustomerService {
 		
 		return customerRepository.findAll();
 	}
-
+     
+     public Optional<Customer> getauthorbyid(Long id){
+		
+		return customerRepository.findById(id);
+	}
 }
