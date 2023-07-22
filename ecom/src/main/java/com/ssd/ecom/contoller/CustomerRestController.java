@@ -25,6 +25,10 @@ public class CustomerRestController {
 	public String getWelcomeMsg() {
 		return "Welocme SSD Ecom App";
 	}
+	@GetMapping("/username")
+	public String getUserName() {
+		return "srikanya";
+	}
 
 	@GetMapping("/otp")
 	public String getOtp() {
