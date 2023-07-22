@@ -29,6 +29,11 @@ public class CustomerRestController {
 	public String getUserName() {
 		return "srikanya";
 	}
+	
+	@GetMapping("/username")
+	public String getMyName() {
+		return "durga..";
+	}
 
 	@GetMapping("/otp")
 	public String getOtp() {
