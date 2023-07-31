@@ -17,7 +17,7 @@ import com.ssd.ecom.service.CustomerService;
 @RestController
 @RequestMapping("/customer")
 public class CustomerRestController {
-	
+	//iam ashok just for checking
 	@Autowired
 	private CustomerService  customerService;
 	
